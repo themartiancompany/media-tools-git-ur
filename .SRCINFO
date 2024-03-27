@@ -1,8 +1,8 @@
-pkgbase = aspe-git
-	pkgdesc = Arch Linux build source file clone tool
+pkgbase = media-tools-git
+	pkgdesc = file clone tool
 	pkgver = 1.1.1.1.r1.g2cd7bc8640842f7d1e87fc6d3f6d64077df798a3
 	pkgrel = 1
-	url = https://github.com/themartiancompany/aspe
+	url = https://github.com/themartiancompany/media-tools
 	arch = any
 	groups = hip
 	groups = hip-git
@@ -10,11 +10,10 @@ pkgbase = aspe-git
 	checkdepends = shellcheck
 	makedepends = curl
 	makedepends = jq
-	depends = bash
-	depends = git
-	provides = aspe=1.1.1.1.r1.g2cd7bc8640842f7d1e87fc6d3f6d64077df798a3
-	conflicts = aspe
-	source = aspe.tar.gz::https://github.com/themartiancompany/aspe/archive/refs/heads/master.tar.gz
+	depends = ffmpeg
+	provides = media-tools=1.1.1.1.r1.g2cd7bc8640842f7d1e87fc6d3f6d64077df798a3
+	conflicts = media-tools
+	source = media-tools.tar.gz::https://github.com/themartiancompany/media-tools/archive/refs/heads/master.tar.gz
 	sha256sums = SKIP
 
-pkgname = aspe-git
+pkgname = media-tools-git
