@@ -2,17 +2,16 @@
 #
 # Maintainer:  Truocolo <truocolo@aol.com>
 # Maintainer:  Pellegrino Prevete <pellegrinoprevete@gmail.com>
-# Contributor: Marcell Meszaros (MarsSeed) <marcell.meszaros@runbox.eu>
 
 _git=false
 _local=false
 _proj="hip"
-_pkgname=aspe
+_pkgname=media-tools
 pkgname="${_pkgname}-git"
 pkgver="1.1.1.1.r1.g2cd7bc8640842f7d1e87fc6d3f6d64077df798a3"
 pkgrel=1
 _pkgdesc=(
-  "Arch Linux build source"
+  ""
   "file clone tool"
 )
 pkgdesc="${_pkgdesc[*]}"
@@ -30,8 +29,7 @@ license=(
   AGPL3
 )
 depends=(
-  bash
-  git
+  ffmpeg
 )
 makedepends=(
 )
