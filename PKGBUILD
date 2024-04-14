@@ -8,7 +8,7 @@ _local=false
 _proj="hip"
 _pkgname=media-tools
 pkgname="${_pkgname}-git"
-pkgver="1.1.1.1.r1.g2cd7bc8640842f7d1e87fc6d3f6d64077df798a3"
+pkgver="0.0.0.1.1.1".r27.g"e1072d00f2e5c1fa05562eeadca7688fee4499c8"
 pkgrel=1
 _pkgdesc=(
   ""
@@ -30,8 +30,10 @@ license=(
 )
 depends=(
   ffmpeg
+  libcrash-bash
 )
 makedepends=(
+  make
 )
 checkdepends=(
   shellcheck

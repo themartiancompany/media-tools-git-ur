@@ -1,6 +1,6 @@
 pkgbase = media-tools-git
 	pkgdesc = file clone tool
-	pkgver = 1.1.1.1.r1.g2cd7bc8640842f7d1e87fc6d3f6d64077df798a3
+	pkgver = 0.0.0.1.1.1.r27.ge1072d00f2e5c1fa05562eeadca7688fee4499c8
 	pkgrel = 1
 	url = https://github.com/themartiancompany/media-tools
 	arch = any
@@ -8,10 +8,12 @@ pkgbase = media-tools-git
 	groups = hip-git
 	license = AGPL3
 	checkdepends = shellcheck
+	makedepends = make
 	makedepends = curl
 	makedepends = jq
 	depends = ffmpeg
-	provides = media-tools=1.1.1.1.r1.g2cd7bc8640842f7d1e87fc6d3f6d64077df798a3
+	depends = libcrash-bash
+	provides = media-tools=0.0.0.1.1.1.r27.ge1072d00f2e5c1fa05562eeadca7688fee4499c8
 	conflicts = media-tools
 	source = media-tools.tar.gz::https://github.com/themartiancompany/media-tools/archive/refs/heads/master.tar.gz
 	sha256sums = SKIP
