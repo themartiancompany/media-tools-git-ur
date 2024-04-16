@@ -8,7 +8,7 @@ _local=false
 _proj="hip"
 _pkgname=media-tools
 pkgname="${_pkgname}-git"
-pkgver="1.1.1.1.r1.g2cd7bc8640842f7d1e87fc6d3f6d64077df798a3"
+pkgver="0.0.0.1.1.1.1".r8.g"11f9348b215313677780da16c1098716534b0b80"
 pkgrel=1
 _pkgdesc=(
   ""
