@@ -30,8 +30,10 @@ license=(
 )
 depends=(
   ffmpeg
+  libcrash-bash
 )
 makedepends=(
+  make
 )
 checkdepends=(
   shellcheck

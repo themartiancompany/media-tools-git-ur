@@ -8,9 +8,11 @@ pkgbase = media-tools-git
 	groups = hip-git
 	license = AGPL3
 	checkdepends = shellcheck
+	makedepends = make
 	makedepends = curl
 	makedepends = jq
 	depends = ffmpeg
+	depends = libcrash-bash
 	provides = media-tools=0.0.0.1.1.1.1.r8.g11f9348b215313677780da16c1098716534b0b80
 	conflicts = media-tools
 	source = media-tools.tar.gz::https://github.com/themartiancompany/media-tools/archive/refs/heads/master.tar.gz
