@@ -3,12 +3,12 @@
 # Maintainer:  Truocolo <truocolo@aol.com>
 # Maintainer:  Pellegrino Prevete <pellegrinoprevete@gmail.com>
 
-_git=false
+_git=true
 _local=false
 _proj="hip"
 _pkgname=media-tools
 pkgname="${_pkgname}-git"
-pkgver="0.0.0.1.1.1.1".r8.g"11f9348b215313677780da16c1098716534b0b80"
+pkgver=0.0.0.1.1.1.1.r85.gd9d7294
 pkgrel=1
 _pkgdesc=(
   ""
