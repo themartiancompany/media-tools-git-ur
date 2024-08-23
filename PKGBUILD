@@ -3,6 +3,9 @@
 # Maintainer:  Truocolo <truocolo@aol.com>
 # Maintainer:  Pellegrino Prevete <pellegrinoprevete@gmail.com>
 
+_os="$( \
+  uname \
+    -o)"
 _git=true
 _local=false
 _proj="hip"
@@ -11,8 +14,7 @@ pkgname="${_pkgname}-git"
 pkgver=0.0.0.1.1.1.1.r85.gd9d7294
 pkgrel=1
 _pkgdesc=(
-  ""
-  "file clone tool"
+  "A collection of media manipulation scripts."
 )
 pkgdesc="${_pkgdesc[*]}"
 arch=(
@@ -32,6 +34,9 @@ depends=(
   ffmpeg
   libcrash-bash
 )
+[[ "${_os}" == 'Android' ]]  && \
+  depends+=(
+  )
 makedepends=(
   make
 )
